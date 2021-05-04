@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*background style*/
+html {
+  background-image: url(../images/stbg.jpg);
+  background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+}
+
+/*start page container style*/
+.start-page-container {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  top: 20vh;
+  left: 30%;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  padding: 80px;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.start-button {
+  position: relative;
+  font-size: 45px;
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  background: transparent;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.start-button:hover {
+  background-color: #da1280;
+  color: white;
+  transform: scale(0.9);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <!--link to style sheet-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!--question container and buttons-->
+    <div class="question-container" id="quizbox">
+        <h1 id="question"> Questions</h1>
+        <div class="question-grid">
+            <button class="answerBtn" id="answer_1" onclick="checkAnswer('a')" type="button">answer 1</button>
+            <button class="answerBtn" id="answer_2" onclick="checkAnswer('b')" type=" button">answer 2</button>
+            <button class="answerBtn" id="answer_3" onclick="checkAnswer('c')" type=" button">answer 3</button>
+            <button class="answerBtn" id="answer_4" onclick="checkAnswer('d')" type="button">answer 4</button>
+            <!--the next button-->
+            <div class="quiz-btn" id="quiz-btn">
+                <button type="button" class="next-btn" id="nxtbtn">Next</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!--script link-->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
