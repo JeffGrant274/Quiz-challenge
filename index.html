@@ -6,28 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
-    <!--link to style sheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <!--style sheet link-->
+    <link rel="stylesheet" href="assets/css/ststyle.css">
 
 </head>
 
 <body>
-    <!--question container and buttons-->
-    <div class="question-container" id="quizbox">
-        <h1 id="question"> Questions</h1>
-        <div class="question-grid">
-            <button class="answerBtn" id="answer_1" onclick="checkAnswer('a')" type="button">answer 1</button>
-            <button class="answerBtn" id="answer_2" onclick="checkAnswer('b')" type=" button">answer 2</button>
-            <button class="answerBtn" id="answer_3" onclick="checkAnswer('c')" type=" button">answer 3</button>
-            <button class="answerBtn" id="answer_4" onclick="checkAnswer('d')" type="button">answer 4</button>
-            <!--the next button-->
-            <div class="quiz-btn" id="quiz-btn">
-                <button type="button" class="next-btn" id="nxtbtn">Next</button>
-            </div>
-        </div>
+    <!--start page container and button-->
+    <div class="start-page-container">
+        <h1 class="quiz-title">Welcome to The Coding Quiz</h1>
+        <button type="button" class="start-button" id="start" onclick="document.location='game.html'">Let's GO!<button>
     </div>
-
-
     <!--script link-->
     <script src="assets/js/script.js"></script>
 </body>
